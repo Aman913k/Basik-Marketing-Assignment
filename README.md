@@ -21,16 +21,16 @@
 
 
 ## Usage:
-### 1. Make sure you have Docker installed on your system.
-### 2. Clone this repository to your local machine.
-### 3. Navigate to the directory containing the docker-compose.yml file.
-### 4. Run the following command to start the services:
+#### 1. Make sure you have Docker installed on your system.
+#### 2. Clone this repository to your local machine.
+#### 3. Navigate to the directory containing the docker-compose.yml file.
+#### 4. Run the following command to start the services:
       docker-compose up -d
-### 5. Access the API server at http://localhost:3000.
+#### 5. Access the API server at http://localhost:3000.
 
 
 
 
 ## Additional Notes:
-### Ensure that no other services are using ports 3000 and 6379 on your system to prevent conflicts.
-### You can customize the configuration by modifying the Dockerfile and environment variables as needed.
+#### Ensure that no other services are using ports 3000 and 6379 on your system to prevent conflicts.
+#### You can customize the configuration by modifying the Dockerfile and environment variables as needed.
